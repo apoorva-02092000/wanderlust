@@ -1,0 +1,95 @@
+body {
+    background-image: url(../img/India.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Arimo', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+   /* margin: 0 auto;*/
+}
+
+
+/***********************************************
+       Account Registartiona and Login
+***********************************************/
+.box,
+.regbox{
+    width: 320px;
+    height: 420px;
+    background: #2f3542;
+    margin: 0;
+    padding: 30px;
+    top: 55%;
+    left: 50%;
+    color: #fff;
+    border-radius: 15px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+.avatar {
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    height: 150px;
+    top: -22%;
+    position: absolute;
+    left: calc(50% - 75px);
+    border-radius: 50%;
+}
+.h1{
+    color: yellow; 
+    font-family: "Times New Roman", Times, serif;
+    font-size: 275px; 
+    font-weight: bold; 
+    letter-spacing: -1px; 
+    line-height: 1;
+    text-align: center; 
+    text-shadow: 2px 2px 2px #CCCCCC;
+}
+.b {
+  border-radius: 2px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 10px;
+  padding: 10px;
+  width: 60px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.b span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.b span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.b:hover span {
+  padding-right: 25px;
+}
+
+.b:hover span:after {
+  opacity: 1;
+  right: 0;
+}
